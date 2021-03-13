@@ -1,0 +1,30 @@
+//THIS PROGRAM CONVERTS HUMAN AGE TO DOG AGE
+
+//This is your age as a human
+const myAge = 22;
+
+//Calculating early years of dog age
+let earlyYears = 2;
+
+earlyYears *= 10;
+// earlyYears = earlyYears * 10;
+
+//Calculating later years of dog age
+let laterYears = myAge - 2;
+
+//Part 2 of calculation
+laterYears *= 4;
+//laterYears = laterYears * 4;
+
+//Test
+//console.log(earlyYears);
+//console.log(laterYears);
+
+//Calculate age in dog years
+let myAgeInDogYears = earlyYears + laterYears
+
+//String interpolation
+const myName = 'Timothy'.toLowerCase();
+
+//Prints to console the string plust ages in human and dog years
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
