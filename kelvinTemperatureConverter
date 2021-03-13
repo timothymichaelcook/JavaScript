@@ -1,0 +1,17 @@
+//This program takes in Kelvin and converts it to Celsius and Fahrenheit
+
+//This is the temperature in kelvin
+const kelvin = 400;
+
+//Converting kelvin to celsius
+const celsius = kelvin - 273;
+
+//Converting celsius to fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+
+//Rouding fahrenheit value
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${kelvin} degrees Kelvin.`);
+console.log(`The temperature is ${celsius} degrees Celsius.`);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
